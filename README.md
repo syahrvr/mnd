@@ -1,22 +1,6 @@
-<p align="center"><img src="https://cdn.worldvectorlogo.com/logos/codeigniter-1.svg" width="100"></p>
-<p align="center">Shopping Cart Solution - CodeIgniter and Bootstrap</p>
- 
-## Bootsrap Responsive Multi-Vendor, MultiLanguage Online Shop Platform
-
 Current versions:
 
-* Codeigniter 3.1.13 (CodeIgniter Foundation)
-* Bootstrap 3.3.7
-
-## Donate
-<p>If this project help you reduce time to develop, you can give me a cup of coffee to continue its development. Thank you! :)</p>
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W5BR6K29BQX7E)
-
-<p><b>BTC Address:</b> 3Qwge1rMAqb7ko3g6AeJraV4ms1pDu2pFd</p>
-
-![alt text](https://raw.githubusercontent.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/master/github/btc.png "Bitcoin address")
-
+* MND 1.0
 
 ## Support of following features
 
