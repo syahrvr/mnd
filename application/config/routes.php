@@ -128,6 +128,7 @@ $route['confirm/(:any)'] = "home/confirmLink/$1";
  * Vendor Controllers Routes
  */
 $route['vendor/login'] = "vendor/auth/login";
+$route['(\w{2})/vendor/login'] = "vendor/auth/login";
 $route['vendor/register'] = "vendor/auth/register";
 $route['(\w{2})/vendor/register'] = "vendor/auth/register";
 $route['vendor/forgotten-password'] = "vendor/auth/forgotten";
