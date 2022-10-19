@@ -64,15 +64,15 @@ class MY_Controller extends MX_Controller
         $vars['footerCategories'] = $this->Public_model->getFooterCategories();
 
         $this->load->model('admin/Settings_model');
-        $values = $this->Settings_model->getValueStores();
-        if(is_array($values) && count($values) > 0) {
-            foreach($values as $value) {
+        $values = $this->Settings_model->getValueStores(); //Ambil data pengaturan
+        if (is_array($values) && count($values) > 0) {
+            foreach ($values as $value) {
                 if (!array_key_exists($value['thekey'], $vars)) {
                     $vars[$value['thekey']] = htmlentities($value['value']);
                 }
             }
         }
-        
+
         $vars['allLanguages'] = $this->getAllLangs();
         $vars['load'] = $this->loop;
         $vars['cookieLaw'] = $this->Public_model->getCookieLaw();
@@ -175,5 +175,4 @@ class MY_Controller extends MX_Controller
         }
         $this->template = 'templates' . DIRECTORY_SEPARATOR . $template . DIRECTORY_SEPARATOR;
     }
-
 }

@@ -18,6 +18,8 @@
     <link href="<?= base_url('assets/css/bootstrap-datepicker.min.css') ?>" rel="stylesheet" />
     <link href="<?= base_url('templatecss/custom.css') ?>" rel="stylesheet" />
     <link href="<?= base_url('cssloader/theme.css') ?>" rel="stylesheet" />
+    <link href="<?= base_url('templatecss/style.css') ?>" rel="stylesheet" />
+    <link href="<?= base_url('templatecss/core-style.css') ?>" rel="stylesheet" />
     <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
     <script src="<?= base_url('loadlanguage/all.js') ?>"></script>
     <?php if ($cookieLaw != false) { ?>
@@ -32,10 +34,6 @@
         </script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
     <?php } ?>
-    <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
 </head>
 
 <body>
